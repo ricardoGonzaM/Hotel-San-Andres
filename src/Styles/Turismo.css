@@ -1,0 +1,693 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) { 
+  .cards_info {
+    position: relative;
+    width: auto;
+    height: 850px;
+    background-color: #a8a29e;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+    perspective: 1000px;
+    box-shadow: 0 0 0 3px #7f7a78;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    margin: 30px;
+  }
+
+  .titulo {
+    border-bottom: 3px solid;
+    color: #6c5b2f;
+  }
+
+  .card-text {
+    padding: 0px;
+  }
+
+  .card-title {
+    font-size: 2em;
+  }
+
+  .card-img {
+    border-radius: 15px;
+    padding: 8px;
+    width: 100%;
+  }
+
+  .texto {
+    text-align: start;
+  }
+
+  .tituloGaleria {
+    color: #6c5b2f;
+    border-bottom: 3px solid;
+  }
+
+    .imagen1 {
+      width: 290px;
+      height: 390px;
+      padding: 15px;
+      border-radius: 25px;
+    }
+  
+    .imagen2 {
+      width: 270px;
+      height: 480px;
+      
+      border-radius: 25px;
+    }
+  
+    .imagen3 {
+      width: 270px;
+      height: 400px;
+      padding: 15px;
+      border-radius: 25px;
+    }
+  
+    .imagen4 {
+      width: 290px;
+      height: 320px;
+      padding: 15px;
+      border-radius: 25px;
+    }
+  
+    .imagen5 {
+      width: 250px;
+      height: 320px;
+      padding: 10px;
+      border-radius: 30px;
+    }
+  
+    .imagen6 {
+      width: 270px;
+      height: 380px;
+      padding: 15px;
+      border-radius: 40px;
+    }
+  
+    .imagen7 {
+      width: 280px;
+      height: 440px;
+      padding: 15px;
+      border-radius: 30px;
+    }
+  
+    .imagen8 {
+      width: 270px;
+      height: 450px;
+      padding: 15px;
+      border-radius: 30px;
+    }
+  
+    .imagen9 {
+      width: 270px;
+      height: 450px;
+      padding: 15px;
+      border-radius: 30px;
+    }
+  
+    .imagen10 {
+      width: 270px;
+      height: 530px;
+      padding: 10px;
+      border-radius: 20px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .cards_info {
+    position: relative;
+    width: auto;
+    height: 650px;
+    background-color: #a8a29e;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+    perspective: 1000px;
+    box-shadow: 0 0 0 3px #7f7a78;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    margin: 30px;
+  }
+
+  .titulo {
+    border-bottom: 3px solid;
+    color: #6c5b2f;
+  }
+
+  .card-text {
+    padding: 0px;
+  }
+
+  .card-title {
+    font-size: 2em;
+  }
+
+  .card-img {
+    border-radius: 15px;
+    padding: 8px;
+    width: 100%;
+  }
+
+  .texto {
+    text-align: start;
+  }
+
+  .tituloGaleria {
+    color: #6c5b2f;
+    border-bottom: 3px solid;
+  }
+
+    .imagen1 {
+      width: 300px;
+      height: 380px;
+      padding: 15px;
+      border-radius: 25px;
+    }
+  
+    .imagen2 {
+      width: 300px;
+      height: 400px;
+      padding: 15px;
+      border-radius: 25px;
+    }
+  
+    .imagen3 {
+      width: 300px;
+      height: 400px;
+      padding: 15px;
+      border-radius: 25px;
+    }
+  
+    .imagen4 {
+      width: 300px;
+      height: 350px;
+      padding: 20px;
+      border-radius: 30px;
+    }
+  
+    .imagen5 {
+      width: 290px;
+      height: 350px;
+      padding: 25px;
+      border-radius: 50px;
+    }
+  
+    .imagen6 {
+      width: 280px;
+      height: 380px;
+      padding: 15px;
+      border-radius: 30px;
+    }
+  
+    .imagen7 {
+      width: 300px;
+      height: 400px;
+      padding: 25px;
+      border-radius: 40px;
+    }
+  
+    .imagen8 {
+      width: 300px;
+      height: 400px;
+      padding: 20px;
+      border-radius: 40px;
+    }
+  
+    .imagen9 {
+      width: 300px;
+      height: 400px;
+      padding: 20px;
+      border-radius: 40px;
+    }
+  
+    .imagen10 {
+      width: 300px;
+      height: 400px;
+      padding: 10px;
+      border-radius: 20px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .cards_info {
+    position: relative;
+    width: auto;
+    height: 350px;
+    background-color: #a8a29e;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+    perspective: 1000px;
+    box-shadow: 0 0 0 3px #7f7a78;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    margin: 32px;
+  }
+
+  .titulo {
+    border-bottom: 3px solid;
+    color: #6c5b2f;
+  }
+
+  .card-text {
+    padding: 20px;
+  }
+
+  .card-title {
+    font-size: 2em;
+  }
+
+  .card-img {
+    border-radius: 15px;
+    padding: 8px;
+    width: 100%;
+  }
+
+  .texto {
+    text-align: start;
+  }
+
+  .tituloGaleria {
+    color: #6c5b2f;
+    border-bottom: 3px solid;
+  }
+
+            .imagen1 {
+              width: 180px;
+              height: 100%;
+              padding: 15px;
+              border-radius: 25px;
+            }
+      
+            .imagen2 {
+              width: 180px;
+              height: 340px;
+              padding: 15px;
+              border-radius: 25px;
+            }
+      
+            .imagen3 {
+              width: 180px;
+              height: 340px;
+              padding: 15px;
+              border-radius: 25px;
+            }
+      
+            .imagen4 {
+              width: 190px;
+              height: 380px;
+              padding: 20px;
+              border-radius: 30px;
+            }
+      
+            .imagen5 {
+              width: 200px;
+              height: 380px;
+              padding: 25px;
+              border-radius: 50px;
+            }
+      
+            .imagen6 {
+              width: 200px;
+              height: 380px;
+              padding: 25px;
+              border-radius: 40px;
+            }
+      
+            .imagen7 {
+              width: 200px;
+              height: 380px;
+              padding: 25px;
+              border-radius: 40px;
+            }
+      
+            .imagen8 {
+              width: 200px;
+              height: 100%;
+              padding: 20px;
+              border-radius: 40px;
+            }
+      
+            .imagen9 {
+              width: 200px;
+              height: 350px;
+              padding: 20px;
+              border-radius: 40px;
+            }
+      
+            .imagen10 {
+              width: 200px;
+              height: 345px;
+              padding: 20px;
+              border-radius: 30px;
+            }
+}
+
+@media only screen and (min-width: 884px) {
+  .cards_info {
+    position: relative;
+    width: auto;
+    height: 350px;
+    background-color: #a8a29e;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+    perspective: 1000px;
+    box-shadow: 0 0 0 3px #7f7a78;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    margin: 32px;
+  }
+
+  .titulo {
+    border-bottom: 3px solid;
+    color: #6c5b2f;
+  }
+
+  .card-text {
+    padding: 20px;
+  }
+
+  .card-title {
+    font-size: 2em;
+  }
+
+  .card-img {
+    border-radius: 15px;
+    padding: 8px;
+    width: 100%;
+  }
+
+  .texto {
+    text-align: start;
+  }
+
+  .tituloGaleria {
+    color: #6c5b2f;
+    border-bottom: 3px solid;
+  }
+
+  .imagen1 {
+    width: 180px;
+    height: 100%;
+    padding: 15px;
+    border-radius: 25px;
+  }
+
+  .imagen2 {
+    width: 180px;
+    height: 340px;
+    padding: 15px;
+    border-radius: 25px;
+  }
+
+  .imagen3 {
+    width: 180px;
+    height: 340px;
+    padding: 15px;
+    border-radius: 25px;
+  }
+
+  .imagen4 {
+    width: 190px;
+    height: 380px;
+    padding: 20px;
+    border-radius: 30px;
+  }
+
+  .imagen5 {
+    width: 200px;
+    height: 380px;
+    padding: 25px;
+    border-radius: 50px;
+  }
+
+  .imagen6 {
+    width: 200px;
+    height: 380px;
+    padding: 25px;
+    border-radius: 40px;
+  }
+
+  .imagen7 {
+    width: 200px;
+    height: 380px;
+    padding: 25px;
+    border-radius: 40px;
+  }
+
+  .imagen8 {
+    width: 200px;
+    height: 370px;
+    padding: 20px;
+    border-radius: 40px;
+  }
+
+  .imagen9 {
+    width: 200px;
+    height: 350px;
+    padding: 20px;
+    border-radius: 40px;
+  }
+
+  .imagen10 {
+    width: 200px;
+    height: 345px;
+    padding: 20px;
+    border-radius: 30px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .cards_info {
+    position: relative;
+    width: auto;
+    height: 320px;
+    background-color: #a8a29e;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+    perspective: 1000px;
+    box-shadow: 0 0 0 3px #7f7a78;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    margin: 32px;
+  }
+
+  .titulo {
+    border-bottom: 3px solid;
+    color: #6c5b2f;
+  }
+
+  .card-text {
+    padding: 20px;
+  }
+
+  .card-title {
+    font-size: 2em;
+  }
+
+  .card-img {
+    border-radius: 15px;
+    padding: 8px;
+    width: 100%;
+  }
+
+  .texto {
+    text-align: start;
+  }
+
+  .tituloGaleria {
+    color: #6c5b2f;
+    border-bottom: 3px solid;
+  }
+
+    .imagen1 {
+      width: 95%;
+      height: 100%;
+      padding: 15px;
+      border-radius: 25px;
+    }
+  
+    .imagen2 {
+      width: 90%;
+      height: 100%;
+      
+    }
+  
+    .imagen3 {
+      width: 95%;
+      height: 100%;
+      padding: 15px;
+      border-radius: 25px;
+    }
+  
+    .imagen4 {
+      width: 105%;
+      height: 90%;
+      padding: 30px;
+      border-radius: 40px;
+    }
+  
+    .imagen5 {
+      width: 100%;
+      height: 100%;
+      padding: 30px;
+      border-radius: 50px;
+    }
+  
+    .imagen6 {
+      width: 105%;
+      height: 100%;
+      padding: 30px;
+      border-radius: 50px;
+    }
+  
+    .imagen7 {
+      width: 90%;
+      height: 100%;
+      padding: 10px;
+      border-radius: 20px;
+    }
+  
+    .imagen8 {
+      width: 100%;
+      height: 100%;
+      padding: 20px;
+      border-radius: 40px;
+    }
+  
+    .imagen9 {
+      width: 100%;
+      height: 330px;
+      padding: 30px;
+      border-radius: 40px;
+    }
+  
+    .imagen10 {
+      width: 90%;
+      height: 280px;
+      padding: 10px;
+      border-radius: 20px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .cards_info {
+    position: relative;
+    width: auto;
+    height: 320px;
+    background-color: #a8a29e;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+    perspective: 1000px;
+    box-shadow: 0 0 0 3px #7f7a78;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    margin: 32px;
+  }
+
+  .titulo {
+    border-bottom: 3px solid;
+    color: #6c5b2f;
+  }
+
+  .card-text {
+    padding: 20px;
+  }
+
+  .card-title {
+    font-size: 2em;
+  }
+
+  .card-img {
+    border-radius: 15px;
+    padding: 8px;
+    width: 100%;
+  }
+
+  .texto {
+    text-align: start;
+  }
+
+  .tituloGaleria {
+    color: #6c5b2f;
+    border-bottom: 3px solid;
+  }
+
+  .imagen1 {
+    width: 85%;
+    height: 320px;
+  }
+
+  .imagen2 {
+    width: 85%;
+    height: 320px;
+  }
+
+  .imagen3 {
+    width: 85%;
+    height: 320px;
+  }
+
+  .imagen4 {
+    width: 100%;
+    height: 90%;
+    padding: 25px;
+    border-radius: 30px;
+  }
+
+  .imagen5 {
+      width: 85%;
+      height: 320px;
+      padding: 15px;
+      border-radius: 30px;
+  }
+
+  .imagen6 {
+      width: 85%;
+      height: 320px;
+      padding: 15px;
+      border-radius: 30px;
+  }
+
+  .imagen7 {
+      width: 85%;
+      height: 310px;
+      padding: 15px;
+      border-radius: 30px;
+  }
+
+  .imagen8 {
+      width: 85%;
+      height: 320px;
+      padding: 20px;
+      border-radius: 30px;
+  }
+
+  .imagen9 {
+      width: 85%;
+      height: 320px;
+      padding: 15px;
+      border-radius: 30px;
+  }
+
+  .imagen10 {
+      width: 85%;
+      height: 320px;
+      padding: 15px;
+      border-radius: 30px;
+  }
+}

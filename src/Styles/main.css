@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "PT Serif", serif;
+}
+
+:root {
+  --mainColor: #a9a392;
+  --mainColorLight: #5767aa;
+  --secondaryColor: #8b7c5b;
+  --textColor: #eee;
+}
+
+body{
+    background-color: #d6cdc8;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  padding: 0 2rem;
+  background-color: var(--mainColor);
+  color: var(--textColor);
+}
+#main-header {
+  background: var(--mainColor);
+  color: white;
+  width: 100%;
+  position: fixed;
+  z-index: 4;
+}
+
+
+nav a {
+  margin: 0 2rem;
+  color: var(--textColor);
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: var(--secondaryColor);
+}
+
+header .nav-btn {
+  padding: 5px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--textColor);
+  visibility: hidden;
+  opacity: 0;
+  font-size: 1.8rem;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  nav a {
+      margin: 0 1.0rem;
+      color: var(--textColor);
+      text-decoration: none;
+    }
+
+  .butonContac {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px 15px;
+      gap: 8px;
+      background-color: #c1a362;
+      outline: 3px #c1a362 solid;
+      outline-offset: -3px;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+      transition: 400ms;
+      width: 150px;
+      height: 50px;
+      border-radius: 10px;
+    }
+  
+    .butonContac .textoContac {
+      color: white;
+      font-weight: 700;
+      font-size: 0.8em;
+      transition: 400ms;
+    }
+  
+    .butonContac svg path {
+      transition: 400ms;
+    }
+  
+    .butonContac:hover {
+      background-color: transparent;
+    }
+  
+    .butonContac:hover .textoContac {
+      color: #181717;
+    }
+  
+    .butonContac:hover svg path {
+      fill: #181717;
+    }
+  
+    .icono {
+      color: white;
+    }
+
+        img {
+          height: 55%;
+        }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .butonContac {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px 15px;
+      gap: 8px;
+      background-color: #c1a362;
+      outline: 3px #c1a362 solid;
+      outline-offset: -3px;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+      transition: 400ms;
+      width: 180px;
+      height: 50px;
+      border-radius: 10px;
+    }
+  
+    .butonContac .textoContac {
+      color: white;
+      font-weight: 700;
+      font-size: 1em;
+      transition: 400ms;
+    }
+  
+    .butonContac svg path {
+      transition: 400ms;
+    }
+  
+    .butonContac:hover {
+      background-color: transparent;
+    }
+  
+    .butonContac:hover .textoContac {
+      color: #181717;
+    }
+  
+    .butonContac:hover svg path {
+      fill: #181717;
+    }
+  
+    .icono {
+      color: white;
+    }
+  
+    img {
+      height: 60%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .butonContac {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px 15px;
+      gap: 8px;
+      background-color: #c1a362;
+      outline: 3px #c1a362 solid;
+      outline-offset: -3px;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+      transition: 400ms;
+      width: 180px;
+      height: 50px;
+      border-radius: 10px;
+    }
+  
+    .butonContac .textoContac {
+      color: white;
+      font-weight: 700;
+      font-size: 1em;
+      transition: 400ms;
+    }
+  
+    .butonContac svg path {
+      transition: 400ms;
+    }
+  
+    .butonContac:hover {
+      background-color: transparent;
+    }
+  
+    .butonContac:hover .textoContac {
+      color: #181717;
+    }
+  
+    .butonContac:hover svg path {
+      fill: #181717;
+    }
+  
+    .icono {
+      color: white;
+    }
+  
+    img {
+      height: 60%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+  nav a {
+      margin: 0 1.5rem;
+      color: var(--textColor);
+      text-decoration: none;
+    }
+
+  .butonContac {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px 15px;
+      gap: 5px;
+      background-color: #c1a362;
+      outline: 3px #c1a362 solid;
+      outline-offset: -3px;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+      transition: 400ms;
+      width: 160px;
+      height: 40px;
+      border-radius: 10px;
+    }
+  
+    .butonContac .textoContac {
+      color: white;
+      font-weight: 700;
+      font-size: 0.9em;
+      transition: 400ms;
+    }
+  
+    .butonContac svg path {
+      transition: 400ms;
+    }
+  
+    .butonContac:hover {
+      background-color: transparent;
+    }
+  
+    .butonContac:hover .textoContac {
+      color: #181717;
+    }
+  
+    .butonContac:hover svg path {
+      fill: #181717;
+    }
+  
+    .icono {
+      color: white;
+    }
+
+  img {
+      height: 60%;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {
+  .butonContac {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px 15px;
+      gap: 5px;
+      background-color: #c1a362;
+      outline: 3px #c1a362 solid;
+      outline-offset: -3px;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+      transition: 400ms;
+      width: 130px;
+      height: 40px;
+      border-radius: 10px;
+    }
+  
+    .butonContac .textoContac {
+      color: white;
+      font-weight: 700;
+      font-size: 0.9em;
+      transition: 400ms;
+    }
+  
+    .butonContac svg path {
+      transition: 400ms;
+    }
+  
+    .butonContac:hover {
+      background-color: transparent;
+    }
+  
+    .butonContac:hover .textoContac {
+      color: #181717;
+    }
+  
+    .butonContac:hover svg path {
+      fill: #181717;
+    }
+  
+    .icono {
+      color: white;
+    }
+  img {
+      height: 60%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+  header nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: auto;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      gap: 1.5rem;
+      background-color: var(--mainColor);
+      transition: 1s;
+      transform: translateY(-100vh);
+    }
+  
+  header .nav-btn {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  header .responsive_nav {
+    transform: none;
+  }
+
+  nav .nan-close-btn {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+  }
+
+  nav a {
+    font-size: 1.5rem;
+  }
+}

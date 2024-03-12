@@ -1,0 +1,434 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .section-grey {
+      background: #757165;
+      height: 640px;
+    }
+  
+    .textoservicios {
+      text-align: center;
+      color: white;
+    }
+  
+    .services {
+      padding: 10px 0;
+    }
+  
+    .container {
+      margin: 0 auto;
+      max-width: 1200px;
+    }
+  
+    .services ul {
+      display: block;
+      position: relative;
+    }
+  
+    ul {
+      list-style: none;
+      margin: 0;
+    }
+  
+    .services ul li {
+      margin: auto;
+      width: 33%;
+      float: left;
+      margin-bottom: 20px;
+      text-align: center;
+      position: relative;
+      align-items: center;
+      justify-content: space-evenly;
+      display: flex;
+      perspective: 1000px;
+    }
+  
+    .services ul li>span,
+    .services ul li>a {
+      background: #ffffff;
+      box-shadow: 0px 20px 4px rgba(33, 33, 33, 0.2);
+      display: block;
+      color: black;
+      height: 120px;
+      margin: auto;
+      padding: 5px;
+      text-decoration: none;
+      width: 90%;
+      border-radius: 50px;
+    }
+  
+    .services ul li>span>span,
+    .services ul li>a>span {
+      color: #212121;
+      display: block;
+      font-size: 40px;
+    }
+  
+    .services ul li>span p,
+    .services ul li>a p {
+      font-size: 10px;
+      left: 0;
+      margin: auto;
+      position: absolute;
+      right: 0;
+      width: 100%;
+    }
+  
+    p {
+      display: block;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+    }
+  
+    .services h2 {
+      margin: auto;
+      color: white;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .section-grey {
+      background: #757165;
+      height: 510px;
+    }
+  
+    .textoservicios {
+      text-align: center;
+      color: white;
+    }
+  
+    .services {
+      padding: 10px 0;
+    }
+  
+    .container {
+      margin: 0 auto;
+      max-width: 1200px;
+    }
+  
+    .services ul {
+      display: block;
+      position: relative;
+    }
+  
+    ul {
+      list-style: none;
+      margin: 0;
+    }
+  
+    .services ul li {
+      margin: auto;
+      width: 32%;
+      float: left;
+      margin-bottom: 20px;
+      text-align: center;
+      position: relative;
+      align-items: center;
+      justify-content: space-evenly;
+      display: flex;
+      perspective: 1000px;
+    }
+  
+    .services ul li>span,
+    .services ul li>a {
+      background: #ffffff;
+      box-shadow: 0px 20px 4px rgba(33, 33, 33, 0.2);
+      display: block;
+      color: black;
+      height: 120px;
+      margin: auto;
+      padding: 5px;
+      text-decoration: none;
+      width: 90%;
+      border-radius: 50px;
+    }
+  
+    .services ul li>span>span,
+    .services ul li>a>span {
+      color: #212121;
+      display: block;
+      font-size: 40px;
+    }
+  
+    .services ul li>span p,
+    .services ul li>a p {
+      font-size: 15px;
+      left: 0;
+      margin: auto;
+      position: absolute;
+      right: 0;
+      width: 100%;
+    }
+  
+    p {
+      display: block;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+    }
+  
+    .services h2 {
+      margin: auto;
+      color: white;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .section-grey {
+    background: #757165;
+    height: 510px;
+  }
+
+  .textoservicios {
+    text-align: center;
+    color: white;
+  }
+
+  .services {
+    padding: 10px 0;
+  }
+
+  .container {
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+
+  .services ul {
+    display: block;
+    position: relative;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+  }
+
+  .services ul li {
+    margin: auto;
+    width: 30%;
+    float: left;
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+      align-items: center;
+      justify-content: space-evenly;
+      display: flex;
+      perspective: 1000px;
+  }
+
+  .services ul li > span,
+  .services ul li > a {
+    background: #ffffff;
+    box-shadow: 0px 20px 4px rgba(33, 33, 33, 0.2);
+    display: block;
+    color: black;
+    height: 120px;
+    margin:  auto;
+    padding: 5px;
+    text-decoration: none;
+    width: 90%;
+    border-radius: 50px;
+  }
+
+  .services ul li > span > span,
+  .services ul li > a > span {
+    color: #212121;
+    display: block;
+    font-size: 40px;
+  }
+
+  .services ul li > span p,
+  .services ul li > a p {
+    font-size: 18px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    width: 100%;
+  }
+
+  p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+
+  .services h2 {
+    margin: auto;
+    color: white;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .section-grey {
+    background: #757165;
+    height: 370px;
+  }
+
+  .textoservicios {
+    text-align: center;
+    color: white;
+  }
+
+  .services {
+    padding: 10px 0;
+  }
+
+  .container {
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+
+  .services ul {
+    display: block;
+    position: relative;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+  }
+
+  .services ul li {
+    float: left;
+    margin-bottom: 55px;
+    width: 20%;
+    margin: auto;
+  }
+
+  .services ul li > span,
+  .services ul li > a {
+    background: #ffffff;
+    box-shadow: 0px 20px 4px rgba(33, 33, 33, 0.2);
+    display: block;
+    color: black;
+    height: 140px;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    width: 90%;
+    border-radius: 50px;
+  }
+
+  .services ul li > span > span,
+  .services ul li > a > span {
+    color: #212121;
+    display: block;
+    font-size: 40px;
+  }
+
+  .services ul li > span p,
+  .services ul li > a p {
+    font-size: 16px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    width: 100%;
+  }
+
+  p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+
+  .services h2 {
+    margin: auto;
+    color: white;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .section-grey {
+    background: #757165;
+    height: 370px;
+  }
+
+  .textoservicios {
+    text-align: center;
+    color: white;
+  }
+
+  .services {
+    padding: 10px 0;
+  }
+
+  .container {
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+
+  .services ul {
+    display: block;
+    position: relative;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+  }
+
+  .services ul li {
+    float: left;
+    margin-bottom: 55px;
+    width: 20%;
+  }
+
+  .services ul li > span,
+  .services ul li > a {
+    background: #ffffff;
+    box-shadow: 0px 20px 4px rgba(33, 33, 33, 0.2);
+    display: block;
+    color: black;
+    height: 130px;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    width: 85%;
+    border-radius: 50px;
+  }
+
+  .services ul li > span > span,
+  .services ul li > a > span {
+    color: #212121;
+    display: block;
+    font-size: 40px;
+  }
+
+  .services ul li > span p,
+  .services ul li > a p {
+    font-size: 18px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    width: 100%;
+  }
+
+  p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+
+  .services h2 {
+    margin: auto;
+    color: white;
+  }
+}
