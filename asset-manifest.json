@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Hotel-San-Andres/static/css/main.1f1d594f.css",
+    "main.css": "/Hotel-San-Andres/static/css/main.366744d4.css",
     "main.js": "/Hotel-San-Andres/static/js/main.59c9fa18.js",
     "static/js/787.8f727d95.chunk.js": "/Hotel-San-Andres/static/js/787.8f727d95.chunk.js",
     "static/media/IMG_2719.jpg": "/Hotel-San-Andres/static/media/IMG_2719.c4d87ab1e2c8b5ebec76.jpg",
@@ -31,12 +31,12 @@
     "static/media/Marquesada.jpg": "/Hotel-San-Andres/static/media/Marquesada.0d855ce15746b4b06ad6.jpg",
     "static/media/SalvaBlues.jpg": "/Hotel-San-Andres/static/media/SalvaBlues.9ab128f69c546a718a3c.jpg",
     "index.html": "/Hotel-San-Andres/index.html",
-    "main.1f1d594f.css.map": "/Hotel-San-Andres/static/css/main.1f1d594f.css.map",
+    "main.366744d4.css.map": "/Hotel-San-Andres/static/css/main.366744d4.css.map",
     "main.59c9fa18.js.map": "/Hotel-San-Andres/static/js/main.59c9fa18.js.map",
     "787.8f727d95.chunk.js.map": "/Hotel-San-Andres/static/js/787.8f727d95.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f1d594f.css",
+    "static/css/main.366744d4.css",
     "static/js/main.59c9fa18.js"
   ]
 }
