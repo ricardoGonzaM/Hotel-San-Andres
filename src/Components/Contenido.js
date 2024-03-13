@@ -26,6 +26,7 @@ function Contenido() {
           ¡Esperamos poder atenderle pronto!.</p>
       </div>
       <h1 className="tituloContenido" id="T2">Habitaciones</h1>
+      <h4 className="info">Presionar las imagenes para obtener información sobre las habitaciones.</h4>
       <div className="m-4 row">
         <div className="card card-block col-12 col-lg-3 mb-3">
           <img
