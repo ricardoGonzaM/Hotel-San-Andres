@@ -9,7 +9,7 @@ const Mapa = () => {
   const [state, handleSubmit] = useForm("xpzvpdgp");
   if (state.succeeded) {
     return <p>Gracias,Pronto contactaremos contigo!</p>;
-  } 
+  }
   return (
     <div className="seccion">
       <div className=" contacto">
